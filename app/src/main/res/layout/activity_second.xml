@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context="com.example.taymaz.hokm3.FirstActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/mPlayerEditNameCardView"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        app:cardBackgroundColor="#616161">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="     Name  "
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:visibility="visible" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/mPlayerNameCardView"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@android:drawable/screen_background_dark_transparent"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/sPlayerNameCardView"
+        android:layout_width="56dp"
+        android:layout_height="@android:dimen/thumbnail_width"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        app:cardBackgroundColor="@android:drawable/screen_background_dark_transparent"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:rotation="-90"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center_horizontal|center|clip_horizontal"
+            android:layout_marginBottom="12dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:rotation="-90"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/android" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/tPlayerNameCardView"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@android:drawable/screen_background_dark_transparent"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left|center_vertical|center|clip_vertical"
+            android:layout_marginLeft="12dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/android" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/fPlayerNameCardView"
+        android:layout_width="56dp"
+        android:layout_height="192dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="@android:drawable/screen_background_dark_transparent"
+        app:cardCornerRadius="25dp"
+        tools:ignore="RtlCompat">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:inputType="text"
+            android:rotation="90"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="top|center_horizontal|center|clip_horizontal"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:rotation="90"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/android" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/messBoardCardView"
+        android:layout_width="@android:dimen/thumbnail_width"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:id="@+id/messageOnBoard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Shuffling"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/randomCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/c1back"
+        android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/c1View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c1" />
+
+            <ImageView
+                android:id="@+id/c1BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c1back" />
+
+        <ImageView
+            android:id="@+id/c2View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c2" />
+
+            <ImageView
+                android:id="@+id/c2BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c2back" />
+
+        <ImageView
+            android:id="@+id/c3View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c3" />
+
+            <ImageView
+                android:id="@+id/c3BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c3back" />
+
+        <ImageView
+            android:id="@+id/c4View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c4" />
+
+            <ImageView
+                android:id="@+id/c4BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c4back" />
+
+        <ImageView
+            android:id="@+id/c5View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c5" />
+
+            <ImageView
+                android:id="@+id/c5BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c5back" />
+
+        <ImageView
+            android:id="@+id/c6View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c6" />
+
+            <ImageView
+                android:id="@+id/c6BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c6back" />
+
+        <ImageView
+            android:id="@+id/c7View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c7" />
+
+            <ImageView
+                android:id="@+id/c7BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c7back" />
+
+        <ImageView
+            android:id="@+id/c8View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c8" />
+
+            <ImageView
+                android:id="@+id/c8BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c8back" />
+
+        <ImageView
+            android:id="@+id/c9View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c9" />
+
+            <ImageView
+                android:id="@+id/c9BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c9back" />
+
+        <ImageView
+            android:id="@+id/c10View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c10" />
+
+            <ImageView
+                android:id="@+id/c10BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c10back" />
+
+        <ImageView
+            android:id="@+id/c11View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c11" />
+
+            <ImageView
+                android:id="@+id/c11BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c11back" />
+
+        <ImageView
+            android:id="@+id/c12View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c12" />
+
+            <ImageView
+                android:id="@+id/c12BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c12back" />
+
+        <ImageView
+            android:id="@+id/c13View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c13" />
+
+            <ImageView
+                android:id="@+id/c13BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c13back" />
+
+        <ImageView
+            android:id="@+id/c14View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c14" />
+
+            <ImageView
+                android:id="@+id/c14BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c14back" />
+
+        <ImageView
+            android:id="@+id/c15View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c15" />
+
+            <ImageView
+                android:id="@+id/c15BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c15back" />
+
+        <ImageView
+            android:id="@+id/c16View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c16" />
+
+            <ImageView
+                android:id="@+id/c16BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c16back" />
+
+        <ImageView
+            android:id="@+id/c17View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c17" />
+
+            <ImageView
+                android:id="@+id/c17BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c17back" />
+
+        <ImageView
+            android:id="@+id/c18View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c18" />
+
+            <ImageView
+                android:id="@+id/c18BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c18back" />
+
+        <ImageView
+            android:id="@+id/c19View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c19" />
+
+            <ImageView
+                android:id="@+id/c19BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c19back" />
+
+        <ImageView
+            android:id="@+id/c20View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c20" />
+
+            <ImageView
+                android:id="@+id/c20BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c20back" />
+
+        <ImageView
+            android:id="@+id/c21View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/c21"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/c21BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c21back" />
+
+        <ImageView
+            android:id="@+id/c22View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c22" />
+
+            <ImageView
+                android:id="@+id/c22BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c22back" />
+
+        <ImageView
+            android:id="@+id/c23View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c23" />
+
+            <ImageView
+                android:id="@+id/c23BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c23back" />
+
+        <ImageView
+            android:id="@+id/c24View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c24" />
+
+            <ImageView
+                android:id="@+id/c24BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c24back" />
+
+        <ImageView
+            android:id="@+id/c25View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c25" />
+
+            <ImageView
+                android:id="@+id/c25BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c25back" />
+
+        <ImageView
+            android:id="@+id/c26View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c26" />
+
+            <ImageView
+                android:id="@+id/c26BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c26back" />
+
+        <ImageView
+            android:id="@+id/c27View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c27" />
+
+            <ImageView
+                android:id="@+id/c27BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c27back" />
+
+        <ImageView
+            android:id="@+id/c28View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c28" />
+
+            <ImageView
+                android:id="@+id/c28BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c28back" />
+
+        <ImageView
+            android:id="@+id/c29View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c29" />
+
+            <ImageView
+                android:id="@+id/c29BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c29back" />
+
+        <ImageView
+            android:id="@+id/c30View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c30" />
+
+            <ImageView
+                android:id="@+id/c30BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c30back" />
+
+        <ImageView
+            android:id="@+id/c31View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c31" />
+
+            <ImageView
+                android:id="@+id/c31BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c31back" />
+
+        <ImageView
+            android:id="@+id/c32View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c32" />
+
+            <ImageView
+                android:id="@+id/c32BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c32back" />
+
+        <ImageView
+            android:id="@+id/c33View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c33" />
+
+            <ImageView
+                android:id="@+id/c33BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c33back" />
+
+        <ImageView
+            android:id="@+id/c34View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c34" />
+
+            <ImageView
+                android:id="@+id/c34BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c34back" />
+
+        <ImageView
+            android:id="@+id/c35View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c35" />
+
+            <ImageView
+                android:id="@+id/c35BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c35back" />
+
+        <ImageView
+            android:id="@+id/c36View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c36" />
+
+            <ImageView
+                android:id="@+id/c36BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c36back" />
+
+        <ImageView
+            android:id="@+id/c37View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c37" />
+
+            <ImageView
+                android:id="@+id/c37BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c37back" />
+
+        <ImageView
+            android:id="@+id/c38View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c38" />
+
+            <ImageView
+                android:id="@+id/c38BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c38back" />
+
+        <ImageView
+            android:id="@+id/c39View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c39" />
+
+            <ImageView
+                android:id="@+id/c39BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c39back" />
+
+        <ImageView
+            android:id="@+id/c40View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c40" />
+
+            <ImageView
+                android:id="@+id/c40BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c40back" />
+
+        <ImageView
+            android:id="@+id/c41View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c41" />
+
+            <ImageView
+                android:id="@+id/c41BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c41back" />
+
+        <ImageView
+            android:id="@+id/c42View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c42" />
+
+            <ImageView
+                android:id="@+id/c42BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c42back" />
+
+        <ImageView
+            android:id="@+id/c43View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c43" />
+
+            <ImageView
+                android:id="@+id/c43BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c43back" />
+
+        <ImageView
+            android:id="@+id/c44View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c44" />
+
+            <ImageView
+                android:id="@+id/c44BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c44back" />
+
+        <ImageView
+            android:id="@+id/c45View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c45" />
+
+            <ImageView
+                android:id="@+id/c45BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c45back" />
+
+        <ImageView
+            android:id="@+id/c46View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c46" />
+
+            <ImageView
+                android:id="@+id/c46BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c46back" />
+
+        <ImageView
+            android:id="@+id/c47View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c47" />
+
+            <ImageView
+                android:id="@+id/c47BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c47back" />
+
+        <ImageView
+            android:id="@+id/c48View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c48" />
+
+            <ImageView
+                android:id="@+id/c48BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c48back" />
+
+        <ImageView
+            android:id="@+id/c49View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c49" />
+
+            <ImageView
+                android:id="@+id/c49BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c49back" />
+
+        <ImageView
+            android:id="@+id/c50View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c50" />
+
+            <ImageView
+                android:id="@+id/c50BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c50back" />
+
+        <ImageView
+            android:id="@+id/c51View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c51" />
+
+            <ImageView
+                android:id="@+id/c51BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c51back" />
+
+        <ImageView
+            android:id="@+id/c52View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c52" />
+
+            <ImageView
+                android:id="@+id/c52BackView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:visibility="invisible"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/c52back" />
+
+        <ImageView
+            android:id="@+id/randCardBackView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:src="@drawable/randcardback" />
+
+</RelativeLayout>
